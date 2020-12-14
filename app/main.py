@@ -2,8 +2,8 @@ import uvicorn
 from fastapi import FastAPI
 
 #from config import get_config
-from app.db import db
-from app.api import posts
+from db import db
+from api import posts
 
 app = FastAPI()
 

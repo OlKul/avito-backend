@@ -1,4 +1,4 @@
-from app.db.database import MongoManager
+from db.database import MongoManager
 
 db = MongoManager()
 

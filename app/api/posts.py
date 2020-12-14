@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends
 from aiohttp import ClientSession
-from app.db import MongoManager
-from app.db import PostDB, OID
-from app.db import get_database
+from db import MongoManager
+from db.models import PostDB, OID
+from db import get_database
 
 router = APIRouter()
 

@@ -4,7 +4,7 @@ from typing import List
 from bson import ObjectId
 from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorDatabase
 
-from app.db.models import PostDB, OID
+from db.models import PostDB, OID
 
 
 class MongoManager(object):
